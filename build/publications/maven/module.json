@@ -30,10 +30,10 @@
           "name": "crypto-utils-lib-1.0.0.jar",
           "url": "crypto-utils-lib-1.0.0.jar",
           "size": 39447,
-          "sha512": "16015da7249856e87ec00cb85041e84f56701ec50cb69c412b377ee49418a7a17b40467022403e5f861a5959f13dbb575b0de337454552d62671389ee859c44e",
-          "sha256": "21d18202556200f9c16a8ca062abcf33d036cfe4661438dc678ab6aed828b4d8",
-          "sha1": "02a068485e7d38f471ed25dc8cbbc4810ecd2c17",
-          "md5": "240117c4039c614e8bad283e38d2171b"
+          "sha512": "5679de3fd4a79af3d09d99711675bfc7a0b49262fea64ca3d205935485e1f2c32f2460e0abce68620d33d88305d6a99445f6cdc4894dcd022840bd97f190a56a",
+          "sha256": "678d29446bbc34dec8b7f6b862083af7791858eea79374d33295a510980e40f7",
+          "sha1": "c0785bc21b8528add746d27a9998a7b82b3fd533",
+          "md5": "19708256bf0557b25f0b0ec1be8d649e"
         }
       ]
     },
@@ -112,10 +112,10 @@
           "name": "crypto-utils-lib-1.0.0.jar",
           "url": "crypto-utils-lib-1.0.0.jar",
           "size": 39447,
-          "sha512": "16015da7249856e87ec00cb85041e84f56701ec50cb69c412b377ee49418a7a17b40467022403e5f861a5959f13dbb575b0de337454552d62671389ee859c44e",
-          "sha256": "21d18202556200f9c16a8ca062abcf33d036cfe4661438dc678ab6aed828b4d8",
-          "sha1": "02a068485e7d38f471ed25dc8cbbc4810ecd2c17",
-          "md5": "240117c4039c614e8bad283e38d2171b"
+          "sha512": "5679de3fd4a79af3d09d99711675bfc7a0b49262fea64ca3d205935485e1f2c32f2460e0abce68620d33d88305d6a99445f6cdc4894dcd022840bd97f190a56a",
+          "sha256": "678d29446bbc34dec8b7f6b862083af7791858eea79374d33295a510980e40f7",
+          "sha1": "c0785bc21b8528add746d27a9998a7b82b3fd533",
+          "md5": "19708256bf0557b25f0b0ec1be8d649e"
         }
       ]
     }
