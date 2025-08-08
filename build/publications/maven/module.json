@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.crp.libs",
+    "module": "crypto-utils-lib",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "crypto-utils-lib-1.0.0.jar",
+          "url": "crypto-utils-lib-1.0.0.jar",
+          "size": 39447,
+          "sha512": "16015da7249856e87ec00cb85041e84f56701ec50cb69c412b377ee49418a7a17b40467022403e5f861a5959f13dbb575b0de337454552d62671389ee859c44e",
+          "sha256": "21d18202556200f9c16a8ca062abcf33d036cfe4661438dc678ab6aed828b4d8",
+          "sha1": "02a068485e7d38f471ed25dc8cbbc4810ecd2c17",
+          "md5": "240117c4039c614e8bad283e38d2171b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter"
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "io.jsonwebtoken",
+          "module": "jjwt-api",
+          "version": {
+            "requires": "0.12.6"
+          }
+        },
+        {
+          "group": "io.jsonwebtoken",
+          "module": "jjwt-impl",
+          "version": {
+            "requires": "0.12.6"
+          }
+        },
+        {
+          "group": "io.jsonwebtoken",
+          "module": "jjwt-jackson",
+          "version": {
+            "requires": "0.12.6"
+          }
+        },
+        {
+          "group": "commons-codec",
+          "module": "commons-codec",
+          "version": {
+            "requires": "1.17.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-utils-lib-1.0.0.jar",
+          "url": "crypto-utils-lib-1.0.0.jar",
+          "size": 39447,
+          "sha512": "16015da7249856e87ec00cb85041e84f56701ec50cb69c412b377ee49418a7a17b40467022403e5f861a5959f13dbb575b0de337454552d62671389ee859c44e",
+          "sha256": "21d18202556200f9c16a8ca062abcf33d036cfe4661438dc678ab6aed828b4d8",
+          "sha1": "02a068485e7d38f471ed25dc8cbbc4810ecd2c17",
+          "md5": "240117c4039c614e8bad283e38d2171b"
+        }
+      ]
+    }
+  ]
+}
