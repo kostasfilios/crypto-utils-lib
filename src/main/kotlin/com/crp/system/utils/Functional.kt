@@ -6,7 +6,7 @@ package com.crp.system.utils
  * @return create a chain of curried type functions e.x sum(a: Int, b: Int): Int this is not curried functions
  * sum(a: Int): (Int) -> Int is the same curried function
  */
-inline fun <reified A, reified B> A.pipeForward(crossinline g: (A) -> B): B {
+inline infix fun <reified A, reified B> A.pipeForward(crossinline g: (A) -> B): B {
     return g.invoke(this)
 }
 
